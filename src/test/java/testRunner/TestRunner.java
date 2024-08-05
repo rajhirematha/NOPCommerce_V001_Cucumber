@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions
         (
 //                Path of the feature file
-                features =".//Features/Login.feature",
+                features =".//Features/Customers.feature",
 //                stepDefinitions package name
                 glue="stepDefinitions",
 //                dryRun = true,
