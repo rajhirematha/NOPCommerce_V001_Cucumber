@@ -54,13 +54,6 @@ public class AddCustomerPage {
 
     public void menuCustomer() {
         ldriver.findElement(lnkCustomer_menu).click();
-//        WebElement element = ldriver.findElement(lnkCustomer_menu);
-//        ((JavascriptExecutor) ldriver).executeScript("arguments[0].scrollIntoView(true);", element);
-//        element.click();
-//        WebElement element = ldriver.findElement(lnkCustomer_menu);
-//        if (element.isEnabled()) {
-//            element.click();
-//        }
     }
 
     public void menuCustomerItem() {

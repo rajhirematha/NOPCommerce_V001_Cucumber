@@ -14,8 +14,7 @@ public class BaseClass {
 
 //    METHOD TO CREATE RANDOM STRING for unique Email ids
     public static String randomestring() {
-        String uuid =  UUID.randomUUID().toString().replace("-", "").substring(0, 5);
-        return uuid;
+        return UUID.randomUUID().toString().replace("-", "").substring(0, 5);
     }
 
 }

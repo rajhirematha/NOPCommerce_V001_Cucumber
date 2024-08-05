@@ -51,18 +51,6 @@ public class Steps extends BaseClass {
         }
     }
 
-//    @Then("The Page Title should be {string}")
-//    public void the_page_title_should_be(String title) {
-//        if (driver.getPageSource().contains("Login was unsuccessful.")) {
-//            driver.close();
-////            This will make test method fail if page source contains("Login was unsuccessful.") message
-//            Assert.assertTrue(false);
-////          Else get the title of the page
-//        } else {
-//            Assert.assertEquals(title, driver.getTitle());
-//        }
-//    }
-
     @When("User click on Log out link")
     public void user_click_on_log_out_link() throws InterruptedException {
         lp.clickLogout();
