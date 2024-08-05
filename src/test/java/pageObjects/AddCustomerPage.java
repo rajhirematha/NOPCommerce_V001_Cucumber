@@ -16,7 +16,7 @@ public class AddCustomerPage {
         PageFactory.initElements(ldriver, this);
     }
 
-    By lnkCustomer_menu = By.xpath("//body/div[3]/aside[1]/div[1]/div[4]/div[1]/div[1]/nav[1]/ul[1]/li[4]/a[1]");
+    By lnkCustomer_menu = By.xpath("//a[@href='#']//p[contains(text(),'Customers')]");
     By getLnkCustomer_menuItem = By.xpath("//a[@href='/Admin/Customer/List']//p[contains(text(),'Customers')]");
     By lnk_Add = By.xpath("//a[normalize-space()='Add new']");
     By txt_Email = By.xpath("//input[@id='Email']");
